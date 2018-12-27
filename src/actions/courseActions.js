@@ -17,7 +17,7 @@ export function loadCoursesSuccess(courses) {
 
 export function createCourseSuccess(course) {
   return {
-    type: types.CREATE_COURSE_SUCCESSS,
+    type: types.CREATE_COURSE_SUCCESS,
     course
   };
 }
