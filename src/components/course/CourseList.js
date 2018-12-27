@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 import CourseListRow from './CourseListRow';
 
 const CourseList = ({ courses }) => {
-  console.log(JSON.stringify(courses));
   return (
     <table className="table">
       <thead>
